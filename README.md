@@ -13,3 +13,10 @@ This project involves data ingestion, cleaning, visualization, and clustering an
 - `ingest.py` - Data ingestion script
 - `cleaned-data.ipynb` - Main analysis notebook
 - `data/` - Data files and outputs
+
+
+
+#Members
+Sara Mohamed,
+Ammar,
+Nardin
