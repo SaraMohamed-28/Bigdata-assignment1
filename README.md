@@ -17,6 +17,6 @@ This project involves data ingestion, cleaning, visualization, and clustering an
 
 
 #Members
-Sara Mohamed
-Ammar
+Sara Mohamed,
+Ammar,
 Nardin
