@@ -1,7 +1,6 @@
-# Ignore dataset files
-data/
-*.csv
-*.parquet
+# Ignore raw large dataset files (uncomment if needed)
+# data/
+# *.csv (allowing tracked csvs)
 
 # Python cache files
 __pycache__/
