@@ -6,3 +6,5 @@ mkdir -p results
 cp *.csv results/
 cp *.txt results/
 cp *.png results/
+
+docker stop bigdata-container
