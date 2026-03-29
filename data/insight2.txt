@@ -1,1 +1,1 @@
-The borough with the highest number of arrests is 'K' with 35640 arrests.
+Insight 2: No missing values after preprocessing.

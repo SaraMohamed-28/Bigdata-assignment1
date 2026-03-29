@@ -1,0 +1,1 @@
+Insight 2: No missing values after preprocessing.

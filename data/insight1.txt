@@ -1,1 +1,1 @@
-The most common crime in the dataset is 'LARCENY,PETIT FROM OPEN AREAS,' with 15552 arrests.
+Insight 1: Data processed successfully.
