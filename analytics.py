@@ -10,3 +10,6 @@ with open("data/insight3.txt", "w") as f:
     f.write("Insight 3: Dataset ready for clustering.")
 
 print("Insights generated.")
+
+import os
+os.system("python visualize.py")
