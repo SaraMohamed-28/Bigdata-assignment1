@@ -1,22 +1,18 @@
-# BigData Assignment 1
+# Big Data Pipeline Project
 
-## Overview
-This project involves data ingestion, cleaning, visualization, and clustering analysis on motor vehicle collision data.
+## Build Docker Image
+docker build -t bigdata-pipeline .
 
-## Contents
-- Data cleaning and preprocessing
-- Exploratory data analysis with visualizations
-- Statistical insights
-- Geographic clustering analysis
+## Run Docker Container
+docker run -it --name bigdata-container bigdata-pipeline
 
-## Files
-- `ingest.py` - Data ingestion script
-- `cleaned-data.ipynb` - Main analysis notebook
-- `data/` - Data files and outputs
+## Execution Flow
+python ingest.py dataset.csv
+python preprocess.py
+python analytics.py
+python visualize.py
+python cluster.py
+bash summary.sh
 
-
-
-#Members
-Sara Mohamed,
-Ammar,
-Nardin
+## Results
+All output files (.csv, .txt, .png) are copied to the results folder using summary.sh.
