@@ -9,3 +9,5 @@ cp *.png results/
 
 docker stop bigdata-container
 docker rm bigdata-container
+
+echo "Summary script finished."
