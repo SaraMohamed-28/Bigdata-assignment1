@@ -8,3 +8,4 @@ cp *.txt results/
 cp *.png results/
 
 docker stop bigdata-container
+docker rm bigdata-container
