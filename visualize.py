@@ -7,3 +7,6 @@ plt.title("Summary Plot")
 plt.savefig("data/summary_plot.png")
 
 print("Plot saved.")
+
+import os
+os.system("python cluster.py")
