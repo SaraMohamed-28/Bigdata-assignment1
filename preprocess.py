@@ -12,3 +12,6 @@ df = df.fillna(0)
 df.to_csv("data/data_cleaned.csv", index=False)
 
 print("Preprocessing complete.")
+
+import os
+os.system("python analytics.py")
