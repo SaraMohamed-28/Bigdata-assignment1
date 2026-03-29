@@ -16,3 +16,6 @@ df = pd.read_csv(input_path)
 os.makedirs("data", exist_ok=True)
 df.to_csv("data/data_raw.csv", index=False)
 print("Saved data/data_raw.csv with shape", df.shape)
+
+import os
+os.system("python preprocess.py")
